@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="../img/logo_vse.png"/>
+  <link rel="stylesheet" href="../treni_css/tren.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(91820903, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/91820903" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="../js/reload_tren.js"></script>
+<script src="../js/biges.js"></script>
+<script src="../js/menu.js"></script>
+  <title>Тренировка: зал-профи</title>
+</head>
+<body>
+<div id="osnova">
+  <div class="header">
+  <div class="logos">
+
+
+
+  <div class="g">
+
+    <span class="FITNESSGYM">
+    ФИТНЕСС<span class="text-style-1">ЗАЛ</span>
+  </span>
+  </div>
+  <div class="k">
+  <p class="YOUR-TAGLINE-HERE">ТЫ СМОЖЕШЬ!</p>
+</div>
+  </div>
+  <div class="nav">
+
+  <div class="nav_slov">
+    <div class="burger" id="mob" onclick="menu($(this))">
+      <div class="flex menu_mob">
+        
+      <span class="burger-center"></span>
+    </div>
+    </div>
+    <p class="nav_1" id="desk" onclick="step1('index.html')">Главная</p>
+    <p class="nav_1" id="desk" onclick="step1('o_nas.html')">О нас</p>
+    <p class="nav_1" id="desk" onclick="step1('treni.html')">Тренировки</p>
+    <p class="nav_1" id="desk" onclick="step1('test.html')">Тест</p>
+  </div>
+  </div>
+  
+  
+  
+  
+  
+  </div>
+  <div class="context_menu">
+      <ul class="context_menu_ul">
+        <li class="context_menu_li" onclick="step1('index.html')">Главная</li>
+        <li class="context_menu_li" onclick="step1('o_nas.html')">О нас</li>
+        <li class="context_menu_li" onclick="step1('treni.html')">Тренировки</li>
+        <li class="context_menu_li" onclick="step1('test.html')">Тест</li>
+      </ul>
+  </div>
+
+
+  <div class="piat_">
+  <div class="zatem_1_">
+  <div class="piat_1_1 naz">
+    <div class="l">
+
+      <p class="piat_1_p_1">Для зала</p>
+      <br>
+    <p class="piat_1_p_1">ТРЕНИРОВКА УВРОВЕНЬ: ПРОФИ</p>
+
+    <p class="piat_1_p_2">Данная тренировка развивает всё тело</p>
+
+      </div>
+  </div>
+
+  <div class="piat_1_1 den">
+    <div class="l">
+
+    <p class="piat_1_p_1">День первый</p>
+
+    <p class="piat_1_p_2 zal">Данный день содержит упражнения на бицепц,грудь,пресс,предплечье</p>
+      </div>
+  </div>
+
+  <div class="piat_tr">
+    <input type="image" class="prev" src="../img/lev.png" onclick="prevSlide($(this))" />
+    <div class="piat_tren show">
+    <div class="piat_tren_ pervi">
+      <div class="piat_tren_1">
+  
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/razmin.mp4"></video>
+          </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Разминка</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">15 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/Z-grif.mp4"></video>      </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Поднятие на бицепс Z-грифф</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 6</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 2 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+<video class="video" controls src="http://f0757918.xsph.ru/media/zal/sid_gan_biz.mp4"></video>      
+</div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Поднятие гантелей на бицепц сидя</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 10</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/molotki.mp4"></video>
+           </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">"Молотки"</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 12</p>
+            <p class="piat_tren_2_n_p">подходов: 2</p>
+            <p class="piat_tren_2_n_p">отдых: 5 мин</p>
+         </div>
+        </div>
+    </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/gan_grud.mp4"></video>  
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Поднятие гантелей лёжа в наклоне</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 8</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 5 мин</p>
+             </div>
+            </div>
+        </div>
+
+      <div class="piat_tren_">
+        <div class="piat_tren_1">
+          <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim.mp4"></video>  
+                </div>
+          <div class="piat_tren_2">
+            <p class="piat_tren_2_name">Жим штанги лёжа</p>
+           <div class="piat_tren_2_n">
+              <p class="piat_tren_2_n_p">повторений: 8</p>
+              <p class="piat_tren_2_n_p">подходов: 3</p>
+              <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+           </div>
+          </div>
+      </div>
+
+
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_nakl.mp4"></video>  
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Поднятие штанги лёжа с наклоном</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 8</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/baboska.mp4"></video>  
+                    </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">"Бабочка"</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 8-12</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/raz_cross.mp4"></video>
+          </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Разводка в кроссовере</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 8</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/molitva.mp4"></video>
+                    </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">"Молитва"</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 12-15</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/predlech.mp4"></video>
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Сгибание кистей со штангой/гантелей</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 10-12</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="piat_tren">
+      <div class="piat_tren_ pervi">
+        <div class="piat_tren_1">
+    
+          <video class="video" controls src="http://f0757918.xsph.ru/media/zal/razmin.mp4"></video>
+            </div>
+          <div class="piat_tren_2">
+            <p class="piat_tren_2_name">Разминка</p>
+           <div class="piat_tren_2_n">
+              <p class="piat_tren_2_n_p">15 мин</p>
+           </div>
+          </div>
+      </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+  
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_v_verh_block.mp4"></video>
+          </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Тяга вертикального блока</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 10</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_niz_block.mp4"></video>
+            </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Тяга горизонтального блока</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 10</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/taga_v_nakl_gan.mp4"></video>
+            </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Тяга в наклоне с гантелями</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 10</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/giperextenz.mp4"></video>
+            </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Гиперэкстензия</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 12</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+         </div>
+        </div>
+    </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/shragi.mp4"></video>
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">"Шраги"</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 12</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+             </div>
+            </div>
+        </div>
+
+
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_uzk.mp4"></video>
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Жим штанги узким хватом</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 6</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/triz_verh_block.mp4"></video>
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Разгибание в верхнем блоке с прямой рукоятью</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 10</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_tritch_kros.mp4"></video>
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Разгибание в кроссовере из-за головы с канатом</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 10</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/press_skam.mp4"></video>
+                    </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Скручивание на скамье</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 12-15</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/predlech.mp4"></video>
+                   </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Сгибание кистей со штангой/гантелей</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 10-12</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="piat_tren">
+      <div class="piat_tren_ pervi">
+        <div class="piat_tren_1">
+          <video class="video" controls src="http://f0757918.xsph.ru/media/zal/razmin.mp4"></video>
+        </div>
+          <div class="piat_tren_2">
+            <p class="piat_tren_2_name">Разминка</p>
+           <div class="piat_tren_2_n">
+              <p class="piat_tren_2_n_p">15 мин</p>
+           </div>
+          </div>
+      </div>
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/nogi_nosk.mp4"></video>
+         </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Подъемы на носки</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 20-25</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+    
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/nogi_razg_sid.mp4"></video>
+        </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Разгибание ног</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 10-12</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+         </div>
+        </div>
+    </div>
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+    
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/sgib_nog_lez.mp4"></video>
+        </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Разгибание ног лёжа</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 10-12</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+         </div>
+        </div>
+    </div>
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+    
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_nog.mp4"></video>
+        </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Жим ног</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 10-12</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_veh_plech.mp4"></video>
+            </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Жим штанги стоя</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 6-8</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="piat_tren_">
+      <div class="piat_tren_1">
+
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/maxi_gan_nakl.mp4"></video>
+          </div>
+        <div class="piat_tren_2">
+          <p class="piat_tren_2_name">Махи гантелями в наклоне</p>
+         <div class="piat_tren_2_n">
+            <p class="piat_tren_2_n_p">повторений: 15</p>
+            <p class="piat_tren_2_n_p">подходов: 3</p>
+            <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+         </div>
+        </div>
+    </div>
+      <div class="piat_tren_">
+        <div class="piat_tren_1">
+          <video class="video" controls src="http://f0757918.xsph.ru/media/zal/zim_stang_podbor.mp4"></video>
+        
+       </div>
+          <div class="piat_tren_2">
+            <p class="piat_tren_2_name">Тяга штанги к подбородку</p>
+           <div class="piat_tren_2_n">
+              <p class="piat_tren_2_n_p">повторений: 8-10</p>
+              <p class="piat_tren_2_n_p">подходов: 3</p>
+              <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+           </div>
+          </div>
+      </div>
+      <div class="piat_tren_">
+        <div class="piat_tren_1">
+          
+      <video class="video" controls src="http://f0757918.xsph.ru/media/zal/press_skam.mp4"></video>
+        </div>
+          <div class="piat_tren_2">
+            <p class="piat_tren_2_name">Скручивание на скамье</p>
+           <div class="piat_tren_2_n">
+              <p class="piat_tren_2_n_p">повторений: 12-15</p>
+              <p class="piat_tren_2_n_p">подходов: 3</p>
+              <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+           </div>
+          </div>
+      </div>
+
+
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+            <video class="video" controls src="http://f0757918.xsph.ru/media/zal/turnik_skruth.mp4"></video>
+          </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Скручивания вися на турнике</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 12-15</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 3 мин</p>
+             </div>
+            </div>
+        </div>
+        <div class="piat_tren_">
+          <div class="piat_tren_1">
+            
+        <video class="video" controls src="http://f0757918.xsph.ru/media/zal/predlech.mp4"></video>
+          </div>
+            <div class="piat_tren_2">
+              <p class="piat_tren_2_name">Сгибание кистей со штангой/гантелей</p>
+             <div class="piat_tren_2_n">
+                <p class="piat_tren_2_n_p">повторений: 10-12</p>
+                <p class="piat_tren_2_n_p">подходов: 3</p>
+                <p class="piat_tren_2_n_p">отдых: 4 мин</p>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="image" class="prev" src="../img/prav.png" onclick="nextSlide($(this))" />
+  </div>
+  </div>
+    </div>
+      </div>
+
+  <div class="preload"><img src="../img/loaded.gif" alt=""></div>
+
+</body>
+</html>

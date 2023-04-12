@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@100;500;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+body{
+  margin: 0;
+}
+*{
+  
+  font-family: 'Raleway';
+}
+.perv{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/1.jpg");
+}
+
+.a{
+    margin:auto;
+}
+.piat1{
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/2.jpg");
+}
+.piat_{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #3ea2d8;
+}
+.piat_1{
+  width: 80%;
+  height: 20%;
+  padding-top: 10vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.piat_1_1{
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.den{
+  margin-top: 1%;
+}
+.zatem_1_{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  min-height: 170vh;
+  padding-bottom: 20%;
+}
+.zatem_1_test{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.test{
+  margin: auto;
+  width: 70%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  padding: 1%;
+}
+
+.test_img{
+  width: 40%;
+}
+.test_img_{
+  height: 100%;
+  width: 100%;
+}
+.test_content{
+  margin-left: 5%;
+  height: 100%;
+  width: 55%;
+}
+.test_nomer{
+  margin-left: 1%;
+  margin-top: 2%;
+  display: inline-block;
+  color: #000;
+}
+.test_vopr_{
+  margin: auto;
+  text-align: center;
+  min-height: 6vw;
+}
+.test_vopr{
+  font-size: 2vw;
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+}
+.otveti{
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 15%;
+  width: 80%;
+  height: 40%;
+}
+.otvet{
+  margin-top: 1%;
+  padding: 5%;
+  display: inline-block;
+  border: solid 2px #000;
+  transition: 0.5s;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.pervv{
+  margin-top: 0%;
+}
+.otvet:hover{
+  background-color: #000;
+  color: #fff;
+}
+.result{
+  width: 50%;
+  height: 30%;
+  margin: auto;
+  text-align: center;
+}
+.result_title{
+  margin: auto;
+}
+.result_name{
+  margin: auto;
+  margin-top: 10%;
+  font-size: 2vw;
+  padding: 2%;
+  display: inline-block;
+  border: solid 2px #000;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.result_name:hover{
+  background-color: #000;
+  color: #fff;
+}
+.a_test{
+  text-decoration: none;
+}
+.l{
+  text-align: center;
+}
+.piat_1_p_1{
+  text-transform: uppercase;
+  display: inline;
+margin: auto;
+font-family: 'Raleway';
+font-size: 3vw;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+  color: #3ea2d8;
+}
+.piat_1_p_2{
+  width: 80%;
+padding-top: 39px;
+margin:auto;
+font-family: 'Raleway';
+font-size: 1.6vw;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.74;
+letter-spacing: normal;
+text-align: center;
+  color: #3ea2d8;
+}
+
+.piat_2_p_2{
+  margin: 0;
+  padding-top: 2vw;
+
+  font-family: 'Raleway';
+  font-size: 1vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  transition: .3s;
+}
+.piat_2_p_3{
+    margin: 0;
+  padding-top: 64px;
+  font-family: 'Raleway';
+font-size: 1vw;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+transition: .3s;
+}
+.piat_2_p_4{
+  padding-top: 4px;
+  margin: 0;
+  font-family: 'Raleway';
+font-size: 1vw;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: center;
+color: #fff;
+transition: .3s;
+}
+.img_piat_2{
+  width: 69px;
+  height: 119px;
+}
+.img_piat_2_1{
+  width: 69px;
+  height: 119px;
+  margin: auto;
+}
+.naz{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 2%;
+}
+.piat_tr{
+  width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 5%;
+  list-style-type: none;
+}
+.piat_tren{
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  padding: 1vw;
+  width: 72%;
+  margin-left: 8%;
+  height: 55vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.show{
+  z-index: 1;
+  opacity: 1;
+  height: 100%;
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+.prev{
+  width: 4vw;
+  height: 4vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.next{
+  width: 4vw;
+  height: 4vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.video{
+  width: 100%;
+  height: 100%;
+  background-color: beige;
+}
+.piat_tren_{
+  display: flex;
+  width: 100%;
+  height: 8vw;
+  margin-top: 2%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.pervi{
+  margin-top: 0;
+}
+.piat_tren_1{
+  width: 30vw;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piat_tren_2{
+  width: 100%;
+  height: 100%;
+}
+.piat_tren_2_name{
+  color: #fff;
+  margin: 0;
+  line-height: normal;
+  margin-left: 5%;
+  margin-top: 2%;
+
+  font-size:calc(8px + 0.8vw);
+
+}
+.piat_tren_2_n{
+  margin: 0;
+  padding-top: 25px;
+
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.piat_tren_2_n_p{
+  margin: 0;
+  color: #fff;
+  font-size:calc(8px + 0.8vw);
+
+}
+@media (max-width:1300px){
+  .show{
+    width: 90%;;
+  }
+  .piat_tr{
+    width: 95%;
+  }
+  
+}
+@media (max-width:1023px){
+  .piat_1_p_2{
+    font-size: 20px;
+  }
+  .piat_1_p_1{
+    font-size: 32px;
+  }
+  .piat_tren_2_name{
+    font-size: 16px;
+  }
+  .piat_tren_2_n_p{
+    font-size: 13px;
+  }
+  .piat_tren_2_n{
+    width: 95%;
+  }
+  .piat_tren_{
+    height: 100px;
+  }
+  
+}

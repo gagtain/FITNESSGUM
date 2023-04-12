@@ -1,0 +1,1 @@
+setTimeout(() => { $(".preload").fadeOut(500); }, 2000);
